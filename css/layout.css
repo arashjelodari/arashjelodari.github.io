@@ -66,10 +66,10 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #c2c2c2;
+   color: #0a0328;;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 0px 1px 2px rgba(100, 100, 100, 0.5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -140,7 +140,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #3b3b3b; }
+.opaque { background-color: #2057bf; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -193,8 +193,8 @@ ul#nav li.current a { color: #F2D34E; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #11ABB0; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a, #about a:visited  { color: #0E31EE; }
+#about a:hover, #about a:focus { color: #0E31EE; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -246,8 +246,8 @@ ul#nav li.current a { color: #F2D34E; }
    color: #484747;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a, #resume a:visited  { color: #0E31EE; }
+#resume a:hover, #resume a:focus { color: #0E31EE; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -255,7 +255,7 @@ ul#nav li.current a { color: #F2D34E; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #0E31EE;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -792,21 +792,21 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #fff;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #2057bf;
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a, #contact a:visited  { color: #0E31EE; }
+#contact a:hover, #contact a:focus { color: #0E31EE; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #EBEEEE;
+   color: #2057bf;
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
@@ -818,12 +818,12 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #ebeeee;
+   color: #2057bf;
 }
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+   color: #2057bf;
    margin-bottom: 6px;
 }
 #contact p.lead {
@@ -838,7 +838,7 @@ call-to-action .button {
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+   color: #2057bf;
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -847,10 +847,10 @@ call-to-action .button {
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #eee;
-	background: #373233;
+	color: #2057bf;
+	background: #fff;
 	margin-bottom: 42px;
-	border: 0;
+	border: 1px solid #819ecc;
 	outline: none;
    font-size: 15px;
    line-height: 24px;
@@ -859,13 +859,15 @@ call-to-action .button {
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: #fff;
-	background-color: #11ABB0;
+	color: #870bbf;
+   background-color: #fff;;
+   border-color: #6c00c6;
+   box-shadow: 0px 0px 6px 0px #3f0eaa;
 }
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color:#fff;
+	color:#2057bf;
    background: #0D0D0D;
 	border: none;
    cursor: pointer;
@@ -875,7 +877,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #contact button.submit:hover {
-	color: #0D0D0D;
+	color: #2057bf;
 	background: #fff;
 }
 #contact span.required {
@@ -930,15 +932,16 @@ call-to-action .button {
 
 footer {
    padding-top: 48px;
-   margin-bottom: 48px;
+   padding-bottom: 48px;
    color: #303030;
    font-size: 14px;
    text-align: center;
    position: relative;
+   background: #ececec
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #2057bf; }
 
 /* copyright */
 footer .copyright {
@@ -1006,5 +1009,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #2057bf; }
 
